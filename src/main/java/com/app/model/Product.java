@@ -84,5 +84,13 @@ public class Product {
 		this.prodVenodr = prodVenodr;
 	}
 
+	@Override
+	public String toString() {
+		return "Product [prodId=" + prodId + ", prodName=" + prodName + ", prodCode=" + prodCode + ", prodCost="
+				+ prodCost + ", prodModel=" + prodModel + ", prodVenodr=" + prodVenodr + "]";
+	}
+	
+	
+
 	
 }

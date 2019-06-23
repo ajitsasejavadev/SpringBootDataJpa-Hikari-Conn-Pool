@@ -13,3 +13,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL55Dialect
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 12
+      max-lifetime: 1200000
+      minimum-idle: 5
+      idle-timeout: 300000
+      auto-commit: true
+      
